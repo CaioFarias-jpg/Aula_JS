@@ -8,11 +8,30 @@ function mostrar(num) {
 function ex11() {
     let nome = document.getElementById("nome11").value;
     let idade = Number(document.getElementById("idade11").value);
+    
+    let res11 = document.getElementById("res11");
 
-    let tipo = idade < 18 ? "jovem" : "adulto";
-
-    document.getElementById("res11").innerText =
-        `${nome} tem ${idade} anos e é ${tipo}`;
+    if (idade >=101){ 
+        res11.innerText = nome + " tem " + idade + " anos e é " + "Muito Velhinho";
+    }
+     else if (idade >=100){
+        res11.innerText = nome + " tem " + idade + " anos e é " + "idoso";
+    }
+    else if (idade >=64){
+        res11.innerText = nome + " tem " + idade + " anos e é " + "Adulto";
+    }
+    else if (idade >=22){
+        res11.innerText = nome + " tem " + idade + " anos e é " + "Jovem";
+    }
+    else if (idade >=11){
+        res11.innerText = nome + " tem " + idade + " anos e é " + "Criança";
+    }
+    else if(idade >=2){
+        res11.innerText = nome + " tem " + idade + " anos e é " + "Bebê";
+    }
+    else {
+        res11.innerText = nome + " tem " + idade + " anos e é " + "Recém nascido";
+    }
 }
 
 function ex12() {
