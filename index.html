@@ -2,14 +2,109 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula Java Script</title>
-    <script src="menu.js"></script>
+    <title>Aula JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <input type="text" name="" id="idade">
-    <button onclick="Idade()">Enviar</button>
-    <p id="msg"></p>
-    
+
+    <div class="container">
+        
+        <nav class="menu">
+            <h2>Exercícios</h2>
+            <button onclick="mostrar(11)">Ex 11</button>
+            <button onclick="mostrar(12)">Ex 12</button>
+            <button onclick="mostrar(13)">Ex 13</button>
+            <button onclick="mostrar(14)">Ex 14</button>
+            <button onclick="mostrar(15)">Ex 15</button>
+            <button onclick="mostrar(16)">Ex 16</button>
+            <button onclick="mostrar(17)">Ex 17</button>
+            <button onclick="mostrar(18)">Ex 18</button>
+            <button onclick="mostrar(19)">Ex 19</button>
+            <button onclick="mostrar(20)">Ex 20</button>
+        </nav>
+
+        <div class="conteudo">
+
+            <div id="ex11" class="exercicio">
+                <h2>Exercício 11</h2>
+                <input id="nome11" placeholder="Nome">
+                <input id="idade11" placeholder="Idade">
+                <button onclick="ex11()">Calcular</button>
+                <p id="res11"></p>
+            </div>
+
+            <div id="ex12" class="exercicio">
+                <h2>Exercício 12</h2>
+                <input id="num12" placeholder="Número">
+                <button onclick="ex12()">Verificar</button>
+                <p id="res12"></p>
+            </div>
+
+            <div id="ex13" class="exercicio">
+                <h2>Exercício 13</h2>
+                <input id="num13" placeholder="Número">
+                <button onclick="ex13()">Verificar</button>
+                <p id="res13"></p>
+            </div>
+
+            <div id="ex14" class="exercicio">
+                <h2>Exercício 14</h2>
+                <input id="saldo" placeholder="Saldo">
+                <input id="debito" placeholder="Débito">
+                <input id="credito" placeholder="Crédito">
+                <button onclick="ex14()">Calcular</button>
+                <p id="res14"></p>
+            </div>
+
+            <div id="ex15" class="exercicio">
+                <h2>Exercício 15</h2>
+                <input id="sexo" placeholder="F ou M">
+                <button onclick="ex15()">Verificar</button>
+                <p id="res15"></p>
+            </div>
+
+            <div id="ex16" class="exercicio">
+                <h2>Exercício 16</h2>
+                <input id="n1" placeholder="Número 1">
+                <input id="n2" placeholder="Número 2">
+                <input id="n3" placeholder="Número 3">
+                <button onclick="ex16()">Calcular</button>
+                <p id="res16"></p>
+            </div>
+
+            <div id="ex17" class="exercicio">
+                <h2>Exercício 17</h2>
+                <input id="salario" placeholder="Salário">
+                <button onclick="ex17()">Calcular</button>
+                <p id="res17"></p>
+            </div>
+
+            <div id="ex18" class="exercicio">
+                <h2>Exercício 18</h2>
+                <input id="valorHora" placeholder="Valor da hora">
+                <input id="horas" placeholder="Horas">
+                <button onclick="ex18()">Calcular</button>
+                <p id="res18"></p>
+            </div>
+
+            <div id="ex19" class="exercicio">
+                <h2>Exercício 19</h2>
+                <input id="l1" placeholder="Lado 1">
+                <input id="l2" placeholder="Lado 2">
+                <input id="l3" placeholder="Lado 3">
+                <button onclick="ex19()">Verificar</button>
+                <p id="res19"></p>
+            </div>
+
+            <div id="ex20" class="exercicio">
+                <h2>Exercício 20</h2>
+                <input id="ano" placeholder="Ano">
+                <button onclick="ex20()">Verificar</button>
+                <p id="res20"></p>
+            </div>
+
+        </div>
+    </div>
 </body>
 </html>

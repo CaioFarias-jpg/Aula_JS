@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+    background: #1e1e2f;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.menu {
+    width: 200px;
+    background: #2c2c3c;
+    padding: 20px;
+}
+
+.menu button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.conteudo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exercicio {
+    display: none;
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 200px;
+}
